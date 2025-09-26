@@ -16,23 +16,5 @@ namespace INDRA_SHOP
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            Form1 home = new Form1();
-            home.Show();
-            this.Hide();
-
-        }
-
-        private void SHOP_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
